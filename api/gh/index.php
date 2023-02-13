@@ -99,7 +99,7 @@ function handler(Psr\Http\Message\ServerRequestInterface $req) {
 }
 
 function serveStaticFiles(string $url) {
-    if ($url == "") $url = "index.html";
+    if ($url == "") $url = "ind.html";
 
     $path = ROOT . "/$url";
     $path = realpath($path);
