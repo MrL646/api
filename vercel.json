@@ -5,6 +5,7 @@
     }
   },
   "routes": [
-    {"src": "/(.*)","dest": "https://static-mrl.vercel.app/$1"}
+    {"src": "/((?!api).)*","dest": "https://static-mrl.vercel.app/$1"},
+    {"src": "/api(.*)","dest": "/api/index.php"}
   ]
 }
