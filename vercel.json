@@ -5,7 +5,6 @@
     }
   },
   "routes": [
-    {"src": "/zh-CN/(.*)","dest": "https://static-mrl.vercel.app/zh-CN/$1"},
     {"src": "/api(.*)","dest": "/api/index.php"}
   ]
 }
