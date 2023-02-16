@@ -5,6 +5,8 @@
     }
   },
   "routes": [
-    {"src": "/api(.*)","dest": "/api/index.php"}
+    {"src": "/api(.*)","dest": "/api/index.php"},
+    {"src": "/gh/(.*)","dest": "https://git.mrl646.workers.dev/"},
+    {"src": "/github.com/(.*)","dest": "https://git.mrl646.workers.dev/github.com/$1"}
   ]
 }
