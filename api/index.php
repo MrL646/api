@@ -1,5 +1,5 @@
 <?php
-// 1.读取1.txt中的内容，并以换行符分开
+// 1.读取list.txt中的内容，并以换行符分开
 $str = explode("\n", file_get_contents('https://api.mrl646.top/list.txt'));
 // 2.得到的$str是一个String的数组，然后获取随机数index
 $rand_index = rand(0,count($str)-1);

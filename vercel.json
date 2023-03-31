@@ -9,6 +9,7 @@
   },
   "routes": [
     {"src": "/koishi","dest": "/api/api2.php"},
-    {"src": "/api(.*)","dest": "/api/index.php"}
+    {"src": "/api(.*)","dest": "/api/index.php"},
+    {"src": "/src/(.*)","dest": "https://github.com/MrL646/Koishi-image/raw/main/image_list/$1"}
   ]
 }
