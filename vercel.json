@@ -5,6 +5,7 @@
     }
   },
   "routes": [
+    {"src": "/koishi(.*)","dest": "/api/api2.php"},
     {"src": "/api(.*)","dest": "/api/index.php"}
   ]
 }
