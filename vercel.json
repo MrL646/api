@@ -11,6 +11,6 @@
     {"src": "/koishi","dest": "/api/api2.php"},
     {"src": "/api(.*)","dest": "/api/index.php"},
     {"src": "/src/(.*)","dest": "https://raw.githubusercontent.com/MrL646/Koishi-image/main/image_list/$1"},
-    {"src": "/youareanidiot","dest": "https://youareanidiot.cc/"}
+    {"src": "/youareanidiot/(.*)","dest": "https://youareanidiot.cc/$1"}
   ]
 }
