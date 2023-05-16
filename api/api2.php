@@ -8,7 +8,8 @@ $rand_index = rand(0,count($str)-1);
 $url = $str[$rand_index];
 // 替换掉转义
 $url = str_re($url);
-// 3.重定向到目标url,返回302码,然后浏览器就会跳转到图片url的地址
+// 3.重定向到目标url,返回301码,然后浏览器就会跳转到图片url的地址
+header('HTTP/1.1 301 Moved Permanently');
 header("Location:".$url);
 // 替换掉一些换行、制表符等转义
 function str_re($str){
