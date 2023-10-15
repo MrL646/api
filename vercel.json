@@ -11,6 +11,7 @@
     {"src": "/koishi","dest": "/api/api2.php"},
     {"src": "/api(.*)","dest": "/api/index.php"},
     {"src": "/src/(.*)","dest": "https://raw.githubusercontent.com/MrL646/Koishi-image/main/image_list/$1"},
-    {"src": "/static/(.*)","dest": "https://raw.githubusercontent.com/MrL646/$1"}
+    {"src": "/static/(.*)","dest": "https://raw.githubusercontent.com/MrL646/$1"},
+    {"src": "/koishi-chat/(.*)","dest": "https://registry.koishi.chat/$1"}
   ]
 }
